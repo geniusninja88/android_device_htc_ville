@@ -35,6 +35,7 @@ TARGET_BOOTLOADER_BOARD_NAME := ville
 
 # Kernel
 TARGET_KERNEL_CONFIG := ville_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.8-cortex-a15/bin/arm-gnueabi-
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/ville/bluetooth
@@ -80,3 +81,5 @@ BOARD_VOLD_MAX_PARTITIONS := 36
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/htc/ville/rootdir/etc/fstab.qcom
+
+WITH_DEXPREOPT := true
