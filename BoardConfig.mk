@@ -35,7 +35,7 @@ TARGET_BOOTLOADER_BOARD_NAME := ville
 
 # Kernel
 TARGET_KERNEL_CONFIG := ville_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.8-cortex-a15/bin/arm-gnueabi-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.8
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/ville/bluetooth
